@@ -1,0 +1,5 @@
+D:\Git\DapperGenericRepositoryTNK\Core.Repository\bin\Debug\Core.Repository.dll
+D:\Git\DapperGenericRepositoryTNK\Core.Repository\bin\Debug\Core.Repository.pdb
+D:\Git\DapperGenericRepositoryTNK\Core.Repository\obj\Debug\Core.Repository.csproj.CoreCompileInputs.cache
+D:\Git\DapperGenericRepositoryTNK\Core.Repository\obj\Debug\Core.Repository.dll
+D:\Git\DapperGenericRepositoryTNK\Core.Repository\obj\Debug\Core.Repository.pdb
