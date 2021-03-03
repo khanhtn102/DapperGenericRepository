@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure
 {
-    public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
+    public abstract class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
         private readonly IDbConnection _conn;
 

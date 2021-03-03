@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Core.Repository
 {
+    public interface IGenericRepository
+    {
+
+    }
+
     public interface IGenericRepository<TEntity> where TEntity : class
     {
         IEnumerable<TEntity> All();
