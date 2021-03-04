@@ -35,11 +35,11 @@ namespace Infrastructure
 
         private string identityField;
 
-        public GenericRepository(IDbConnection conn, char parameterIdentified = '@')
+        public GenericRepository(DbContext conn, char parameterIdentified = '@')
         {
             if (conn == null) throw new ArgumentNullException(nameof(conn), $"The parameter {nameof(conn)} can't be null");
 
-            _conn = conn;
+            _conn = conn.GetConnection();
             ParameterIdentified = parameterIdentified;
             _partsQryGenerator = AutofacResolution.Instance.Resolve<PartsQryGenerator<TEntity>>(new NamedParameter("characterParameter", ParameterIdentified));
             _identityInspector = AutofacResolution.Instance.Resolve<IDentityInspector<TEntity>>(new NamedParameter("conn", conn));

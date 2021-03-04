@@ -8,3 +8,4 @@ D:\Git\DapperGenericRepositoryTK\Core.Repository\bin\Debug\Core.Repository.pdb
 D:\Git\DapperGenericRepositoryTK\Core.Repository\obj\Debug\Core.Repository.csproj.CoreCompileInputs.cache
 D:\Git\DapperGenericRepositoryTK\Core.Repository\obj\Debug\Core.Repository.dll
 D:\Git\DapperGenericRepositoryTK\Core.Repository\obj\Debug\Core.Repository.pdb
+D:\Git\DapperGenericRepositoryTNK\Core.Repository\obj\Debug\Core.Repository.csprojAssemblyReference.cache
