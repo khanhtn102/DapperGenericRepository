@@ -62,3 +62,5 @@ D:\Git\DapperGenericRepositoryTK\Infrastructure\obj\Debug\Infrastructure.csproj.
 D:\Git\DapperGenericRepositoryTK\Infrastructure\obj\Debug\Infrastructure.csproj.CopyComplete
 D:\Git\DapperGenericRepositoryTK\Infrastructure\obj\Debug\Infrastructure.dll
 D:\Git\DapperGenericRepositoryTK\Infrastructure\obj\Debug\Infrastructure.pdb
+D:\Git\DapperGenericRepositoryTNK\Infrastructure\bin\Debug\Core.Models.dll
+D:\Git\DapperGenericRepositoryTNK\Infrastructure\bin\Debug\Core.Models.pdb

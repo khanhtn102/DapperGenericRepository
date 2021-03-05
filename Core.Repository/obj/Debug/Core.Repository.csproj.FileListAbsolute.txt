@@ -9,3 +9,6 @@ D:\Git\DapperGenericRepositoryTK\Core.Repository\obj\Debug\Core.Repository.cspro
 D:\Git\DapperGenericRepositoryTK\Core.Repository\obj\Debug\Core.Repository.dll
 D:\Git\DapperGenericRepositoryTK\Core.Repository\obj\Debug\Core.Repository.pdb
 D:\Git\DapperGenericRepositoryTNK\Core.Repository\obj\Debug\Core.Repository.csprojAssemblyReference.cache
+D:\Git\DapperGenericRepositoryTNK\Core.Repository\bin\Debug\Core.Models.dll
+D:\Git\DapperGenericRepositoryTNK\Core.Repository\bin\Debug\Core.Models.pdb
+D:\Git\DapperGenericRepositoryTNK\Core.Repository\obj\Debug\Core.Repository.csproj.CopyComplete

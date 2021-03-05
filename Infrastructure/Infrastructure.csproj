@@ -75,8 +75,13 @@
     <Compile Include="IDentityInspector.cs" />
     <Compile Include="PartsQryGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\StudentRepository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Core.Models\Core.Models.csproj">
+      <Project>{90261EE6-A0B2-41D6-A9E3-905CEBEDDB9A}</Project>
+      <Name>Core.Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Core.Repository\Core.Repository.csproj">
       <Project>{155B07CC-9A61-4BA2-ACB9-B583801A47E3}</Project>
       <Name>Core.Repository</Name>

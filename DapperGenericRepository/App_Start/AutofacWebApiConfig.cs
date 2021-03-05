@@ -49,8 +49,8 @@ namespace DapperGenericRepository.App_Start
         private static void RegisterInfrastructureLayer(IEnumerable<Assembly> listAssemblies)
         {
             AutofacResolution.Instance.RegisterPerLifetimeScope<DbContext>();
-            AutofacResolution.Instance.Builder().RegisterGeneric(typeof(PartsQryGenerator<>)).As(typeof(IPartsQryGenerator<>)).InstancePerDependency();
-            AutofacResolution.Instance.Builder().RegisterGeneric(typeof(IDentityInspector<>)).As(typeof(IIDentityInspector<>)).InstancePerDependency();
+            //AutofacResolution.Instance.Builder().RegisterGeneric(typeof(PartsQryGenerator<>)).As(typeof(IPartsQryGenerator<>)).InstancePerDependency();
+            //AutofacResolution.Instance.Builder().RegisterGeneric(typeof(IDentityInspector<>)).As(typeof(IIDentityInspector<>)).InstancePerDependency();
 
             var listRepositoryTypes = new List<Type>();
             foreach (var assembly in listAssemblies)

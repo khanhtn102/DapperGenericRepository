@@ -44,7 +44,14 @@
     <Compile Include="IGenericRepository.cs" />
     <Compile Include="IIDentityInspector.cs" />
     <Compile Include="IPartsQryGenerator.cs" />
+    <Compile Include="IStudentRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Models\Core.Models.csproj">
+      <Project>{90261EE6-A0B2-41D6-A9E3-905CEBEDDB9A}</Project>
+      <Name>Core.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

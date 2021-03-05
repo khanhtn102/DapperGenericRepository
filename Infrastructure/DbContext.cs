@@ -12,18 +12,18 @@ namespace Infrastructure
     public class DbContext
     {
         private readonly IDbConnection _connection;
-        public IDbTransaction Transaction { get; private set; }
+        //public IDbTransaction Transaction { get; private set; }
 
         public DbContext()
         {
             _connection = new SqlConnection(ConfigurationManager.ConnectionStrings["DBConnection"].ConnectionString);
-            Transaction = _connection.BeginTransaction();
+            //Transaction = _connection.BeginTransaction();
         }
 
         public IDbCommand CreateCommand()
         {
             var cmd = _connection.CreateCommand();
-            cmd.Transaction = Transaction;
+            //cmd.Transaction = Transaction;
             return cmd;
         }
 

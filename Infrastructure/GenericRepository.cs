@@ -41,8 +41,10 @@ namespace Infrastructure
 
             _conn = conn.GetConnection();
             ParameterIdentified = parameterIdentified;
-            _partsQryGenerator = AutofacResolution.Instance.Resolve<PartsQryGenerator<TEntity>>(new NamedParameter("characterParameter", ParameterIdentified));
-            _identityInspector = AutofacResolution.Instance.Resolve<IDentityInspector<TEntity>>(new NamedParameter("conn", conn));
+            //_partsQryGenerator = AutofacResolution.Instance.Resolve<PartsQryGenerator<TEntity>>(new NamedParameter("characterParameter", ParameterIdentified));
+            //_identityInspector = AutofacResolution.Instance.Resolve<IDentityInspector<TEntity>>(new NamedParameter("conn", conn));
+            _partsQryGenerator = new PartsQryGenerator<TEntity>(ParameterIdentified);
+            _identityInspector = new IDentityInspector<TEntity>(_conn);
         }
 
         public int Add(TEntity entity)

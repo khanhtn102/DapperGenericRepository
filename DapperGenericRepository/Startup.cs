@@ -9,12 +9,15 @@ using Owin;
 
 namespace DapperGenericRepository
 {
-	public class Startup
-	{
-		public void Configuration(IAppBuilder app)
-		{
-			var configuration = new HttpConfiguration();
-			AutofacWebApiConfig.Initialize(configuration);
-		}
-	}
+    public class Startup
+    {
+        public void Configuration(IAppBuilder app)
+        {
+            var configuration = new HttpConfiguration();
+            WebApiConfig.Register(configuration);
+            AutofacWebApiConfig.Initialize(configuration);
+
+            app.UseWebApi(configuration);
+        }
+    }
 }
